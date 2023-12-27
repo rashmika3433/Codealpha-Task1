@@ -6,7 +6,7 @@ public class StudentGradeTracker {
     public static void main(String[] args) {
         //creates a Scanner object to read user input and an ArrayList to store grades
         Scanner scanner=new Scanner(System.in);
-        ArrayList<integer> grades=new ArrayList<>();
+        ArrayList<Integer> grades=new ArrayList<>();
         //prompts the user to enter the number of students and stores the input in the numberOfStudent variable
         System.out.print("Enter the number of Students:");
         int numberOfStudent=scanner.nextInt();
